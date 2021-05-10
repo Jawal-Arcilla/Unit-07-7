@@ -11,8 +11,7 @@ function calculate () {
   number1 = parseInt(number1)
   number2 = parseInt(number2)
 
-  for (counter = 0; counter < number1; counter++)
-  {
+  for (counter = 0; counter < number1; counter++) {
     answer = answer + number2
   }
   document.getElementById('result').innerHTML = answer
